@@ -1,0 +1,28 @@
+{
+    "name": "dmitriikolotuhin/php_kolotuhin_dv",
+    "description": "Implementation of a php program on the topic \"Prime number\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DmitriiKolotuhin\\prime\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/prime"
+    ],
+    "authors": [
+        {
+            "name": "Dmitriy Kolotukhin",
+            "email": "haivenspiret@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}

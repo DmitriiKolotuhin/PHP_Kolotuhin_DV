@@ -1,0 +1,18 @@
+{
+    "name": "dmitriikolotuhin/php_kolotuhin_dv",
+    "description": "Implementation of a php program on the topic \"Prime number\"",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Kolotukhin",
+            "email": "haivenspiret@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.7"
+    }
+    
+}
